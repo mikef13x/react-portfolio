@@ -17,7 +17,7 @@ const theme = useTheme()
                 alignItems:'center',
                 justifyContent: 'center'
             }}>
-               <div>This was made by Michael Freeman @2024</div> 
+               <span className='montserrat'>This was made by Michael Freeman @2024</span> 
             </Paper>
         </>
     )

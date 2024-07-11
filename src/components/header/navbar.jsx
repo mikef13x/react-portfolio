@@ -48,7 +48,7 @@ function Navbar() {
             }}
           >
            <Link to="/" style={{ color: 'inherit', textDecoration: 'none' }}>
-    Michael Freeman
+    <span className='montserrat'>MF</span>
   </Link>
           </Typography>
 
@@ -112,7 +112,7 @@ function Navbar() {
               <Button
                 key={page}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block' }}
+                sx={{ my: 2, color: 'white', display: 'block', fontFamily: 'Montserrat' }}
                 component={Link}
                 to={page === 'Home' ? '/' : page === 'About' ? '/about' : page === 'Portfolio' ? '/portfolio' : page === 'Resume' ? '/resume' : page === 'Contact' ? '/contact' : '#'}
                 
