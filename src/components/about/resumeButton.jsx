@@ -6,21 +6,21 @@ import { useEffect, useState } from "react";
 
 
 
-export default function PortfolioButton() {
+export default function ResumeButton() {
 
     const [showText2, setShowText2] = useState(false)
 
     useEffect(() => {
         const timer = setTimeout(() => {
             setShowText2(true)
-        }, 18000)
+        }, 10500)
         return () => clearTimeout(timer)
     }, []);
 
     return (
         <Typography variant='h2' align='center'>
             {showText2 && (
-                <Link href="/portfolio" underline="none">
+                <Link href="/resume" underline="none">
                     <Button sx={{
                         height: '50px',
                         width: '400px',
@@ -37,7 +37,7 @@ export default function PortfolioButton() {
                         }
                     }}
                         variant="contained" >
-                        <p className='montserrat'>Take a look at my Portfolio!</p>
+                        <p className='montserrat'>Take a look at my Resume!</p>
                     </Button>
                 </Link>
 

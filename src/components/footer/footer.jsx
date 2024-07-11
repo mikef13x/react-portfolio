@@ -9,8 +9,8 @@ const theme = useTheme()
         <Paper sx={{
                 position: 'fixed',
                 bottom: 0,
-                width: '100%',
-                height: '100px',
+                width: '100vw',
+                height: '5vh',
                 backgroundColor: theme.palette.primary.main,
                 color: 'white', 
                 display:'flex',

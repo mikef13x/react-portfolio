@@ -27,7 +27,7 @@ export default function Home() {
         <Container sx={{ color: 'white'}} >
             <Typography variant="h1" align="center">
                 <p className={'montserrat'}>
-                    <Typewriter text="Michael Freeman" speed={80} />
+                    <Typewriter text="Michael Freeman" speed={100} />
                 </p>
             </Typography>
             <Typography variant='h2' align='center'>
