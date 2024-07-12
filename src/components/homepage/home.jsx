@@ -17,7 +17,7 @@ export default function Home() {
     useEffect(() => {
         const timer = setTimeout(() => {
             setShowText2(true)
-        }, 5000)
+        }, 4000)
         return () => clearTimeout(timer)
     }, []);
 
@@ -33,7 +33,7 @@ export default function Home() {
             <Typography variant='h2' align='center'>
                 {showText && (
                     <p className={'montserrat '}>
-                        <Typewriter text="Welcome to my Portfolio " speed={70} />
+                        <Typewriter text="Welcome to my Portfolio " speed={60} />
                     </p>
                 )}
             </Typography>
