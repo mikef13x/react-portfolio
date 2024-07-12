@@ -1,7 +1,7 @@
 import React from "react";
 import ReactResume from "../components/resume/reactresume";
 import DownloadResume from "../components/resume/downloadresume";
-import Box from "@mui/material/Box"; // Import Box from Material-UI
+import Box from "@mui/material/Box"; 
 
 export default function ResumePage() {
     return (

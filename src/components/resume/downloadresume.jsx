@@ -10,15 +10,18 @@ export default function DownloadResume() {
                 sx={{
                     display: 'flex',
                     flexDirection: 'column',
-                    alignItems: 'center', // Center the content
-                    p: 2, // Add padding around the content
+                    alignItems: 'center', 
+                    p: 2,
+                   
                 }}
             >   
                     <h2 className="montserrat" style={{color: 'white', marginTop:'40px'}}>My Resume</h2>
-                {/* Image Field */}
-                <img src={pdfImage} alt="Resume" style={{ maxWidth: '100%', height:'60vh', marginTop: '20px' }} />
+               
+                <img src={pdfImage} alt="Resume" style={{ maxWidth: '100%', height:'60vh', marginTop: '20px', borderColor: '#0068c4',
+                    borderWidth: '3px',
+                    borderStyle: 'solid' }} />
                 
-                {/* Download Button */}
+              
                 <Button sx={{ 
                     color: 'white',
                     backgroundColor: 'rgb(1, 0, 18)',
@@ -33,8 +36,8 @@ export default function DownloadResume() {
                 }}
                     variant="contained"
                     color="primary"
-                    href={resumePdf} // Link to your PDF file
-                    download="Michael_Freeman.pdf" // Suggested name for the downloaded file
+                    href={resumePdf} 
+                    download="Michael_Freeman.pdf" 
                 >
                     Download Resume
                 </Button>

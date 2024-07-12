@@ -5,8 +5,8 @@ export default function ReactResume() {
     return (
        
         <Box sx={{ display: 'flex', justifyContent: 'center', width: '100%', marginTop: '20px'}}>
-            <Box sx={{ paddingRight: 10, paddingTop: 5}}>
-                <Paper elevation={3} sx={{ padding: 2, marginBottom: 4 }}>
+            <Box sx={{ paddingRight: 15, paddingTop: 7}}>
+                <Paper elevation={3} sx={{ padding: 2, marginBottom: 4, borderStyle: 'solid', borderColor: '#0068c4', borderWidth:'3px'}}>
                     <Typography variant="h5" gutterBottom>
                       Education
                     </Typography>
@@ -21,7 +21,7 @@ export default function ReactResume() {
                        
                     </Typography>
                 </Paper>
-                <Paper elevation={3} sx={{ padding: 2, marginBottom: 4 }}>
+                <Paper elevation={3} sx={{ padding: 2, marginBottom: 4, borderStyle: 'solid', borderColor: '#0068c4', borderWidth:'3px' }}>
                     <Typography variant="h5" gutterBottom>
                        Key Skills
                     </Typography>
@@ -37,15 +37,15 @@ export default function ReactResume() {
                         </strong>
                     </Typography>
                 </Paper>
-                <Paper elevation={3} sx={{ padding: 2 }}>
+                <Paper elevation={3} sx={{ padding: 2, borderStyle: 'solid', borderColor: '#0068c4', borderWidth:'3px'}}>
                     <Typography variant="h5" gutterBottom>
                       Projects
                     </Typography>
                     <Typography>
-                    <strong>Indie Ignite:</strong> platform for indie game developers to gain support and funding, I took the front-end lead on this project using handlebars and manual CSS to create an intuitive user interface and professional quality finish and feel<br />
-                        <br />
+                    <strong>Indie Ignite:</strong> platform for indie game developers to gain support and funding, I took the front-end lead on this project using handlebars and manual CSS to create an intuitive user interface and professional quality finish.<br />
+                    
                         <strong>Debate Cafe:</strong> A website to discuss and view debates, I took the React-lead on this project to create an easy to use and simple interface using Material-UI for styling.<br />
-                        <br />
+                 
                         <strong>Aniname:</strong> An application where users can search, and find new or current anime. For this project, HTML CSS and JavaScript was used. The application has a list for the users to track their current watchlist.
                     </Typography>
                 </Paper>
@@ -56,7 +56,7 @@ export default function ReactResume() {
                     borderColor: '#0068c4',
                     borderWidth: '2px',
                     borderStyle: 'solid',
-                    marginTop: '50px',
+                    marginTop: '30px',
                     '&:hover': {
                             backgroundColor: '#0068c4',
                             color: 'white'
