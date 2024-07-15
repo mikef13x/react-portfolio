@@ -111,7 +111,7 @@ function PortfolioSection({ cards }) {
                     variants={containerInfo}
                     initial="hidden"
                     animate="visible"
-                    style={{ display: 'flex', flexWrap: 'wrap', gap: '100px' }}
+                    style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', gap: '50px' }}
                 >
                     {cards?.map(card => (
                         <motion.div key={card._id} variants={cardMovement}>
