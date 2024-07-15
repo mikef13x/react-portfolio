@@ -1,6 +1,6 @@
 import React from "react";
 import Box from "@mui/material/Box";
-import Button from "@mui/material/Button"; // Import Button from MUI
+import Button from "@mui/material/Button"; 
 import pdfImage from "../../assets/images/pdf-image (1).png";
 import resumePdf from '../../assets/images/Michael_Freeman.pdf'
 export default function DownloadResume() {
@@ -12,7 +12,6 @@ export default function DownloadResume() {
                     flexDirection: 'column',
                     alignItems: 'center', 
                     p: 2,
-                   
                 }}
             >   
                     <h2 className="montserrat" style={{color: 'white', marginTop:'40px'}}>My Resume</h2>

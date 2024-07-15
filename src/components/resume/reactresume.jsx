@@ -10,7 +10,6 @@ export default function ReactResume() {
 
         <Box sx={{ display: 'flex', justifyContent: 'center', width: '100%', marginTop: '20px' }}>
             <Box sx={{ paddingRight: 15, paddingTop: 5 }}>
-              
                 <Paper elevation={6} sx={{
                     padding: 2,
                     marginBottom: 4,
@@ -25,7 +24,7 @@ export default function ReactResume() {
                         Education
                     </Typography>
                     <Typography sx={{ color: '#333' }}> 
-                        <strong>edX Coding Bootcamp at University of Connecticut 2024-Present </strong> <br />
+                        <strong> edX Coding Bootcamp at University of Connecticut 2024-Present </strong> <br />
                         - MERN Full Stack
                         <br />
                         <br />
