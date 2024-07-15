@@ -1,4 +1,4 @@
-import Port from "../components/portfolio/portfoliocard"
+
 import React from "react"
 import PortfolioSection from "../components/portfolio/portfoliosection"
 import Aniname from "../assets/images/Screenshot 2024-03-25 190554.png"
@@ -57,6 +57,20 @@ const portfolioCards = [
     },  
     {
         _id: '8',
+        title: 'Aniname',
+        description: 'this is indie ignite lorem ipsum , indie ignite lorem ipsumindie ignite lorem ipsum, indie ignite lorem ipsumindie ignite lorem ipsum, indie ignite lorem ip',
+        link: 'https://github.com/mikef13x/project-1-null',
+        image: IndieIgnite
+    },
+    {
+        _id: '9',
+        title: 'Indie Ignite',
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+        link: 'https://github.com/SpencerKlink/Indie-Ignite',
+        image: Aniname
+    },  
+    {
+        _id: '10',
         title: 'Aniname',
         description: 'this is indie ignite lorem ipsum , indie ignite lorem ipsumindie ignite lorem ipsum, indie ignite lorem ipsumindie ignite lorem ipsum, indie ignite lorem ip',
         link: 'https://github.com/mikef13x/project-1-null',
