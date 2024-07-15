@@ -1,11 +1,42 @@
 import React from 'react';
 import { TextField, Button, Paper, Box, Typography } from '@mui/material';
+import { useState } from 'react'
 
 export default function ContactForm() {
+    const [name, setName] = useState('');
+    const [isNameValid, setIsNameValid] = useState(true)
+    const [email, setEmail] = useState('');
+    const [isEmailValid, setIsEmailValid] = useState(true);
+    const [message, setMessage] = useState('');
+    const [isMessageValid, setIsMessageValid] = useState(true)
+
+    const emailRegex =  /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
     const handleSubmit = (event) => {
         event.preventDefault();
         console.log("this button");
     };
+
+
+    const handleNameChange = (e) => {
+        const nameInput = e.target.value;
+        setName(nameInput);
+        setIsNameValid(nameInput.length >= 0);
+    }
+
+    const handleEmailChange = (e) => {
+        const emailInput = e.target.value;
+        setEmail(emailInput);
+        const isValid = emailRegex.test(emailInput)
+        setIsEmailValid(isValid);
+    };
+
+    const handleMessageChange = (e) => {
+        const messageInput = e.target.value;
+        setMessage(messageInput);
+        setIsMessageValid(messageInput.length >= 0);
+    }
+
 
     return (
         <>
@@ -32,6 +63,9 @@ export default function ContactForm() {
                     label="Name"
                     variant="outlined"
                     fullWidth
+                    value={name}
+                    onChange={handleNameChange}
+                    error={!isNameValid}
                     margin="normal"
                     required
                     InputProps={{
@@ -44,6 +78,9 @@ export default function ContactForm() {
                     fullWidth
                     margin="normal"
                     type="email"
+                    value={email}
+                    onChange={handleEmailChange}
+                    error={!isEmailValid}
                     required
                     InputProps={{
                         style: { backgroundColor: 'white', color: 'black' },
@@ -55,6 +92,9 @@ export default function ContactForm() {
                     fullWidth
                     margin="normal"
                     multiline
+                    value={message}
+                    onChange={handleMessageChange}
+                    error={!isMessageValid}
                     rows={4}
                     required
                     InputProps={{
@@ -62,7 +102,8 @@ export default function ContactForm() {
                     }}
                 />
                 <Box sx={{ display: 'flex', justifyContent: 'center', marginTop: '50px' }}>
-                <Button onClick={handleSubmit} 
+                <Button disabled = {name === '' || !isNameValid || email === '' || !isEmailValid || message === "" || !isMessageValid
+                } onClick={handleSubmit} 
                             sx={{
                                 height: '50px',
                                 width: '300px',
