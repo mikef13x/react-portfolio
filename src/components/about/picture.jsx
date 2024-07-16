@@ -1,5 +1,6 @@
 import React from "react";
 import {Box, Typography} from "@mui/material"
+import picture from '../../assets/images/mike_about_me_1.jpg'
 
 export default function Picture() {
 
@@ -19,7 +20,7 @@ export default function Picture() {
                 marginLeft: '300px'
                
             }} >
-            <img src="../../../assets/images/mike_about_me_1.jpg" alt="Name 1" style={{  maxWidth: '600px', maxHeight: '600px'}} />
+            <img src={picture} alt="Name 1" style={{  maxWidth: '600px', maxHeight: '600px'}} />
             </Box>
             <Typography variant="h4" component="h2" item  sx={{ marginBottom: '20px', marginLeft:'250px', textAlign: 'center', color: 'white', marginTop: '20px' }}>
                 <span className="montserrat"> Michael Freeman</span>
