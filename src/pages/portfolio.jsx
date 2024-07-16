@@ -13,7 +13,7 @@ const portfolioCards = [
         _id: '1',
         title: 'Indie Ignite',
         description: 'This is Indie Ignite, a platform for indie game developers to share their game in the making, gather funding and support in hopes for a more successful launch!',
-        link: 'https://github.com/SpencerKlink/Indie-Ignite',
+        link: 'https://indie-ignite-2cd818928232.herokuapp.com/',
         image: IndieIgnite
     },  
     {
