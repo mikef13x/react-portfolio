@@ -2,7 +2,8 @@
   
 "homepage": "https://main--mikef13x-portfolio.netlify.app/",
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "build": "vite build"
   },
   "dependencies": {
     "@emotion/react": "^11.11.4",
