@@ -5,7 +5,7 @@ I was tasked to create a React Portfolio with an about page, contact page, resum
 
 
 ## Screenshot
-![alt text](./assets/images/portfolio.jpg "React Portfolio Website Screenshot")
+![alt text](./assets/images/portfolio.png "React Portfolio Website Screenshot")
 
 ## Site Link
 https://mikef13-portfolio.netlify.app/
