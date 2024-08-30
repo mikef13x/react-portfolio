@@ -31,7 +31,7 @@ export default function AboutMe() {
                         <Box>
                             <Typography variant="body1" fontSize={'26px'}>
                                 <div className="montserrat">
-                                    <Typewriter text=' My name is Michael, I am 23 and from Connecticut. I am currently enrolled in a Full Stack Javascript Course learning the MERN stack. I have skills with both the front and back end, and have been enjoying React! I am hard working and very passionate about coding. I am creative and I know I would be a strong addition to any workspace. Please dont hesitate to reach out to me!' speed={25}></Typewriter>
+                                    <Typewriter text=' My name is Michael, I am 23 and from Connecticut. I have just completed a Full Stack Javascript Course learning the MERN stack. I have skills with both the front and back end, and have been enjoying React! I am hard working and very passionate about coding. I am creative and I know I would be a strong addition to any workspace. Please dont hesitate to reach out to me!' speed={25}></Typewriter>
                                 </div>
                             </Typography>
                   
