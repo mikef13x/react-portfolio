@@ -36,7 +36,8 @@ export default function DownloadResume() {
                     variant="contained"
                     color="primary"
                     href={resumePdf} 
-                    download="Michael_Freeman.pdf" 
+                    download="Michael_Freeman.pdf"
+                    disabled
                 >
                     Download Resume
                 </Button>
