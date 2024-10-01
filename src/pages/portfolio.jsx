@@ -3,16 +3,18 @@ import React from "react"
 import PortfolioSection from "../components/portfolio/portfoliosection"
 import Aniname from "../assets/images/Screenshot 2024-03-25 190554.png"
 import IndieIgnite from "../assets/images/indieignite.png"
-import CodingQuiz from '../assets/images/site screenshot.png'
+import QRGen from "../assets/images/qrgen.png"
 import PasswordGenerator from '../assets/images/passwordgenerator.png'
 import WeatherApp from '../assets/images/weatherapp.png'
-import DebateCafe from '../assets/images/debatecafe.png'
+import DebateCafe from '../assets/images/debatecafenewpic.png'
+import Adulting from '../assets/images/adultingimg.png'
+
 
 const portfolioCards = [
     {
         _id: '1',
         title: 'Indie Ignite',
-        description: 'This is Indie Ignite, a platform for indie game developers to share their game in the making, gather funding and support in hopes for a more successful launch!',
+        description: ' *SITE IS CURRENTLY DOWN* This is Indie Ignite, a platform for indie game developers to share their game in the making, gather funding and support in hopes for a more successful launch!',
         link: 'https://indie-ignite-2cd818928232.herokuapp.com/',
         image: IndieIgnite
     },  
@@ -32,13 +34,21 @@ const portfolioCards = [
     },
     {
         _id: '4',
-        title: 'Coding Quiz',
-        description: 'This is a coding quiz where users can test their knowledge on the basics of HTML, CSS and JavaScript!',
-        link: 'https://mikef13x.github.io/coding-quiz/',
-        image: CodingQuiz
+        title: 'QR Generator',
+        description: 'This is an application where users can generate QR codes!',
+        link: 'https://github.com/mikef13x/QR-generator',
+        image: QRGen
     },  
     {
         _id: '5',
+        title: 'Adulting',
+        description: 'This Application allows users to learn about becoming an adult, with in depth forums, comments, and a finance and health tracker!',
+     
+        link: 'https://github.com/CCUE96/Adulting',
+        image: Adulting
+    }, 
+    {
+        _id: '6',
         title: 'Password Generator',
         description: 'Users can choose a password between 8-128 characters. They can choose to include uppercase, lowercase, numbers, and special characters, and a password will be randomly generated!',
      
@@ -46,7 +56,7 @@ const portfolioCards = [
         image: PasswordGenerator
     },
     {
-        _id: '6',
+        _id: '7',
         title: 'Weather App',
         description: 'This is a Weather App where users can find the current weather and 5 day forecast of any city they choose!',
         link: 'https://mikef13x.github.io/weather-app/',
