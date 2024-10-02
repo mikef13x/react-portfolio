@@ -36,7 +36,7 @@ const portfolioCards = [
         _id: '4',
         title: 'QR Generator',
         description: 'This is an application where users can generate QR codes!',
-        link: 'https://github.com/mikef13x/QR-generator',
+        link: 'https://qr-generator-53w3.onrender.com/',
         image: QRGen
     },  
     {
