@@ -2,7 +2,7 @@ import React from "react";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button"; 
 import pdfImage from "../../assets/images/pdf-image (1).png";
-import resumePdf from '../../assets/images/Michael_Freeman.pdf'
+// import resumePdf from '../../assets/images/Michael_Freeman.pdf'
 export default function DownloadResume() {
     return (
         <>
@@ -35,7 +35,7 @@ export default function DownloadResume() {
                 }}
                     variant="contained"
                     color="primary"
-                    href={resumePdf} 
+                    // href={resumePdf} 
                     download="Michael_Freeman.pdf"
                     disabled
                 >
